@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+  app:
+    image: ghcr.io/jpmaligne/inter-process-communication:latest
+    ports:
+      - 8074:8074
